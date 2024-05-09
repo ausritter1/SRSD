@@ -1,12 +1,6 @@
 import pandas as pd
 import streamlit as st
 
-# Replace with the path to your company's logo
-logo_path = "v5logo.png"
-
-# Display the company logo
-st.image(logo_path, width=200)  # Adjust width as per your logo size
-
 # Define weightings for different criteria
 weights = {
     'Industry': 0.5,
